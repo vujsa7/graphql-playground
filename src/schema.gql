@@ -1,0 +1,17 @@
+type Book {
+  title: String!
+  author: String!
+}
+
+input BookInput {
+  title: String!
+  author: String!
+}
+
+type Mutation {
+  addBook(input: BookInput!): [Book!]!
+}
+
+type Query {
+  books: [Book]
+}

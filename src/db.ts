@@ -1,0 +1,10 @@
+export const books = [
+  {
+    title: "The Great Gatsby",
+    author: "F. Scott Fitzgerald",
+  },
+  {
+    title: "1984",
+    author: "George Orwell",
+  },
+];
